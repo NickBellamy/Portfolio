@@ -214,7 +214,6 @@ h2 {
 
 h4 {
     align-self: flex-start;
-    padding-left: 10px;
     text-shadow: 1px 1px 2px #ff69b4;
 }
 
@@ -260,7 +259,7 @@ h4 {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-bottom: 60px;
+    padding: 0 1.5% 60px 1.5%;
 }
 
 .project-container img {
@@ -287,7 +286,7 @@ h4 {
         border: none;
         max-width: 300px;
         padding: 0;
-        width: 90%;   
+        width: 100%;   
     }
 }
 
@@ -362,10 +361,11 @@ h4 {
         -ms-writing-mode: vertical-lr;
         z-index: -1;
     }
-    #projects a {
+    #projects article {
         flex-grow: 1;
+        height: 100%;
     }
-    #projects a:first-of-type {
+    #projects article:first-of-type {
         margin-left: 130px;
     }
 }
