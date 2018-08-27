@@ -292,7 +292,7 @@ h4 {
 
 @media screen and (min-width: 800px) {
   .project-container {
-    padding: 0 1.5% 60px 1.5%;
+    padding: 0 1.5% 40px 1.5%;
   }
   .project-container img {
     background: initial;
@@ -390,7 +390,7 @@ h4 {
   }
 }
 
-#project-1 {
+#project-1, #project-1 .project-links a {
   background-color: #ffa07a;
 }
 
@@ -412,7 +412,7 @@ h4 {
   }
 }
 
-#project-2 {
+#project-2, #project-2 .project-links a {
   background-color: #f5deb3;
 }
 
@@ -434,7 +434,7 @@ h4 {
   }
 }
 
-#project-3 {
+#project-3, #project-3 .project-links a {
   background-color: #998f8f;
 }
 
@@ -454,6 +454,26 @@ h4 {
       0.95
     ); /* 8 digit hex colours not supported by MS Edge */
   }
+}
+
+.project-links {
+    display:flex;
+    margin-top: 30px;
+}
+.project-links a {
+    border: solid 2px #666;
+    border-radius: 0 0 0 11px;
+    font-size: 15px;
+    padding: 8px;
+}
+.project-links a:first-child {
+    border-right: none;
+    padding-right: 15px;
+    margin-right: -10px;
+}
+.project-links a:hover {
+    background-color:#02b3e4 !important;
+    color: #fff;
 }
 
 /* Footer */
