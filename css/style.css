@@ -457,23 +457,26 @@ h4 {
 }
 
 .project-links {
-    display:flex;
-    margin-top: 30px;
+  display:flex;
+  margin-top: 30px;
 }
+
 .project-links a {
-    border: solid 2px #666;
-    border-radius: 0 0 0 11px;
-    font-size: 15px;
-    padding: 8px;
+  border: solid 2px #666;
+  border-radius: 0 0 0 11px;
+  font-size: 15px;
+  padding: 8px;
 }
+
 .project-links a:first-child {
-    border-right: none;
-    padding-right: 15px;
-    margin-right: -10px;
+  border-right: none;
+  padding-right: 15px;
+  margin-right: -10px;
 }
+
 .project-links a:hover {
-    background-color:#02b3e4 !important;
-    color: #fff;
+  background-color:#02b3e4 !important;
+  color: #fff;
 }
 
 /* Footer */
