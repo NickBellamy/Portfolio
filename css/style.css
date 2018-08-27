@@ -263,7 +263,7 @@ h4 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 0 10% 60px 10%;
+  padding: 0 10% 0 10%;
 }
 
 .project-container img {
@@ -271,6 +271,9 @@ h4 {
 }
 
 @media screen and (min-width: 380px) {
+    .project-container{
+        padding-bottom:0;
+    }
   .project-container img {
     background: rgba(
       255,
@@ -292,7 +295,7 @@ h4 {
 
 @media screen and (min-width: 800px) {
   .project-container {
-    padding: 0 1.5% 40px 1.5%;
+    padding: 0 1.5% 0 1.5%;
   }
   .project-container img {
     background: initial;
@@ -458,13 +461,12 @@ h4 {
 
 .project-links {
   display:flex;
-  margin-top: 30px;
+  margin: 15px 0;
 }
 
 .project-links a {
   border: solid 2px #666;
   border-radius: 0 0 0 11px;
-  font-size: 15px;
   padding: 8px;
 }
 
